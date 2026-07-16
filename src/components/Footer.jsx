@@ -19,7 +19,7 @@ function Footer() {
         
 
         
-
+    
         <p className="text-gray-600 text-sm mt-2">
           © 2026 Bavatharini J. All Rights Reserved.
         </p>
