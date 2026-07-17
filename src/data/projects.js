@@ -33,7 +33,7 @@ const projects = [
       "/projects/banking/transactions.png",
     ],
 
-    github: "https://github.com/yourusername/banking-system",
+    github: "https://github.com/dashboard",
   },
 
   {
