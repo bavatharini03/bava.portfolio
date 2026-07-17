@@ -66,7 +66,7 @@ const projects = [
       "/projects/malware/analysis.png",
     ],
 
-    github: "https://github.com/yourusername/malware-project",
+    github: "https://github.com/bavatharini03/MALWARE-DETECTION",
   },
 ];
 
