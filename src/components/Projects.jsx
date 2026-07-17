@@ -12,6 +12,7 @@ const [currentImage, setCurrentImage] = useState(0);
 
 const nextImage = () => {
   setCurrentImage((prev) =>
+    
     (prev + 1) % selectedProject.screenshots.length
   );
 };
@@ -106,15 +107,17 @@ const prevImage = () => {
 
                 <div className="flex gap-4">
 
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="bg-gray-700 hover:bg-gray-600 px-5 py-3 rounded-lg flex items-center gap-2"
-                  >
-                    <FaGithub />
-                    GitHub
-                  </a>
+                  {project.github && (
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noreferrer"
+    className="bg-gray-700 hover:bg-gray-600 px-5 py-3 rounded-lg flex items-center gap-2"
+  >
+    <FaGithub />
+    GitHub
+  </a>
+)}
 
 
                  <button
